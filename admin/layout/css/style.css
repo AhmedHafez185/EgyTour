@@ -1,0 +1,187 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #EEE
+}
+
+h2{
+	font-weight: bold;
+	color: #555;
+	margin-bottom: 30px
+}
+
+.astrick{
+	position: absolute;
+    right: 21px;
+    font-size: 30px;
+    color: #FF4242;
+    top: 5px;
+} 
+/* Log in Form*/ 
+.login_form{
+	margin-top: 120px;
+	width: 270px;
+}
+/*LoginError **/
+.LoginError{
+	background: #F00;
+	font-weight: 18px;
+	width: 400px;
+	height: 40px;
+	border-radius:5px;
+	margin-left:30px; 
+}
+/**Nav Bar */
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #337AB7;
+
+}
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0;
+     font-size: 15px;
+}
+.dropdown-menu > li > a:hover {
+     background-color: #337AB7;
+     color:#FFF;
+}
+.form h2{
+	color: #b5b6b8
+}
+
+.form input[type=text],
+.form input[type=password]{
+	background: #e7e7e7
+}
+
+.form-control{
+	position: relative;
+}
+
+
+/* members page */
+.main-table{
+	box-shadow: 0px 4px 17px rgb(173, 173, 173);
+}
+
+.main-table td{
+	background-color: #fff;
+	vertical-align: middle!important;
+	font-weight: bold;
+	color: #666
+}
+.main-table tr:first-child td{
+	color: #fff;
+	background-color: #444;
+	font-weight: bold;
+
+}
+
+.main-table .btn{
+	padding: 3px 10px;
+}
+
+
+
+/* start bootstrap edit */
+.navbar-inverse {
+    background-color: #34495e;
+    border-color: #34495e;
+    border-radius: 0;
+    color: #f1c40f;
+}
+
+/* Dash Board*/
+.home-stats .stat
+{
+    padding:20px;
+	font-size:20px;
+	color:#FFF;
+	border-radius:5px;
+	position:relative;
+	 overflow:hidden;
+}
+.home-stats .stat .info
+{
+ float:right;
+ font-size:18px;
+}
+.home-stats .stat .info span
+{
+	font-size:2em;
+}
+.home-stats .stat i
+{
+  font-size:60px;
+  position:absolute;
+  left:20px;
+  top:30px;
+}
+.home-stats .stat a
+{
+	color:#FFF;
+}
+.home-stats .stat a:hover
+{	
+	text-decoration:none;
+}
+.home-stats .st-members
+{	background: #f00;
+	background-color:#3498db;
+}
+.home-stats .st-pending
+{
+	background-color:#c0392b;
+}
+.home-stats .st-items
+{
+	background-color:#d35400;
+}
+.home-stats .st-comments
+{
+	background-color:#8e44dd;
+}
+.home-stats .stat span
+{
+	display:block;
+}
+/* dash board*/
+.latest{
+	margin-top: 40px;
+	
+}
+/*service page*/
+.prodForm select {
+    border-radius: 5px;
+    height: 40px;
+    display: block;
+    width: 70%;
+    border: 2px solid #DDD;
+    padding: 10px 15px;
+    vertical-align: top;
+    background: #fff;
+    font-weight: bold;
+}
+
+.prodForm .addCity{
+float:right;
+position: absolute;
+right: 10px;
+}
+.City_form{
+	    margin-top: 120px;
+    width: 270px;
+    display: block;
+    background: #2B7B9A;
+    border: 3px solid #20204E;
+    padding: 10px;
+
+}
+
